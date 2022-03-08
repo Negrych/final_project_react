@@ -1,0 +1,27 @@
+.wrapInfo {
+    padding: 20px 20px 500px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.descrWrap {
+    max-width: 500px;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.descr, .releaseData {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.releaseData {
+    color: gold;
+    font-weight: 900;
+}
+.previewBtn {
+   display: flex;
+    justify-content: center;
+}

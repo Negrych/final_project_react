@@ -1,0 +1,47 @@
+.genreWrap .genreItem {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:aqua;
+    font-weight: 900;
+}
+
+.close {
+    display: none;
+}
+
+.firstLine,.secondLine {
+    margin-bottom: 20px;
+    height: 2px;
+    width: 50px;
+    background-color: gold;
+}
+.btnClose {
+   position: absolute;
+    right: 100px;
+    top: 100px;
+}
+.firstLine {
+    position: absolute;
+    transform: rotate(60deg);
+}
+
+.secondLine {
+    position: absolute;
+    transform:rotate(-60deg);
+}
+.genreWrapMobile {
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.genreWrapMobile .genreItem {
+    color: white;
+}
+.block {
+    display: block;
+}

@@ -1,0 +1,33 @@
+.headerWrap {
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+    padding: 20px 100px;
+}
+.headerWrap .loginWrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.headerWrap .logo {
+    font-size: 50px;
+    color: aqua;
+    font-weight: 500;
+}
+
+.loginWrap input {
+    background: transparent;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.loginWrap button {
+    background-color: aqua;
+    padding: 10px 30px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
