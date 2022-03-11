@@ -23,3 +23,9 @@ form button {
 .formWrap {
     padding-bottom: 100%;
 }
+.doneRegistration {
+    text-align: center;
+}
+.messg {
+    text-align: center;
+}

@@ -1,20 +1,14 @@
-.listWrap {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 2px solid gold;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.moviesTitle {
+    text-align: center;
+    font-weight: bold;
 }
-
-.listWrap .title {
-    font-size: 20px;
-    font-weight: 600;
+.genres {
+    width: 50%;
+    margin-left: 20px;
+    text-align: center;
     background-color: silver;
-    padding: 20px;
     border-radius: 20px;
 }
-
 .rating {
     display: flex;
     align-items: flex-end;
@@ -52,24 +46,31 @@
     line-height: 1;
     padding: 0 0 0 10px;
 }
-.wrapGenres {
-    background-color: lightslategrey;
-    padding: 20px;
-    text-align: center;
-    border-radius: 20px;
+
+.wrapImg {
+    max-width: 230px;
 }
-.cardFooter{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 500px;
+.wrapImg img {
+    width: 100%;
 }
-.btnDetails {
+.detailsBtn {
+    display: block;
+    margin: 20px auto;
     background-color: aqua;
     padding: 10px 30px;
     text-align: center;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 20px;
+}
+
+.wrapBtnDetails a {
+    text-decoration: none;
+}
+
+.wrapFilm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

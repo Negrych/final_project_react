@@ -1,23 +1,17 @@
-.titleWrap {
-    display: flex;
-    justify-content: space-evenly;
+.myPage {
+    color: red;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.page {
+    text-align: center;
 }
 .changePage {
     background-color: aqua;
     padding: 10px 30px;
-    text-align: center;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-}
-.wrapList {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.wrapBtn {
-    display: flex;
-    justify-content: space-evenly;
-    width: 500px;
-    margin-bottom: 500px;
 }

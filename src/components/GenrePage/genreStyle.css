@@ -1,5 +1,9 @@
+.genreWrap {
+    margin-left: 10px;
+}
+
 .genreWrap .genreItem {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 10px;
     color:aqua;
     font-weight: 900;
@@ -30,9 +34,10 @@
     transform:rotate(-60deg);
 }
 .genreWrapMobile {
+    padding-left: 50px;
     z-index: 1;
     position: absolute;
-    top: 250px;
+    top: -140px;
     left: 0;
     width: 100%;
     background-color: rgba(0,0,0,0.8);
