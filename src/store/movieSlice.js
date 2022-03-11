@@ -72,6 +72,7 @@ const movieSlice = createSlice({
         }),
         changePage:((state, action) => {
             state.pages=action.payload
+            state.check=[]
         }),
     },
     extraReducers:{
