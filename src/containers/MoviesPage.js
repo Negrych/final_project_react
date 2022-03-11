@@ -43,7 +43,7 @@ const MoviesPage = () => {
                       ) :''}
                   </div>
                   <div className={'row'}>
-                      {(!filtred.length && check.length ) ?  <div>На даній сторінці інформації по заданим критеріям немає</div> : ''}
+                      {(!filtred.length && check.length ) ?  <div className={'noFilm'}>На даній сторінці інформації по заданим критеріям немає</div> : ''}
                   </div>
 
                   <div className={'page'}>
